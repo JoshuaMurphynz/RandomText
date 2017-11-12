@@ -3,16 +3,9 @@
 # By Josh
 # Version .01 "Christmas"
 
-
-# todo:
-
+# Possible additions:
 	# Scaling
-
-
-
-
 # Variables
-
 textOne="All the swans in England are property of the Queen."
 textSecond="There are 336 dimples on a regulation golf ball"
 textThird="The only domestic animal not mentioned in the Bible is the cat."
@@ -26,18 +19,9 @@ textTenth="Like fingerprints, everyone’s tongue print is different!"
 
 # Functions
 
-
-
-
-
 # Actual code
-
 amountOfFacts="10"
 amountOfFactsRecorded="0"
-
-
-
-
 randomVariable=$(( ( RANDOM % 10 )  + 1 ))
 
 if [ "$randomVariable" = "1" ]
@@ -99,10 +83,4 @@ if [ "$randomVariable" = "10" ]
 		textVariable=$textTenth
 		amountOfFacts="10"
 fi
-
-
-
-
-
-
 echo "$textVariable"
